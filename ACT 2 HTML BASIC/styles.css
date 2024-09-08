@@ -1,0 +1,111 @@
+body { background-image: url(bg.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+ 
+h2 { font-size: 30px;
+
+}
+
+.esstablished{
+    font-style: italic ;
+    
+}
+
+h1, h2, p {
+    text-align: center;
+}
+        
+.menu {
+    width: 40%;
+    background-image: url(bgg.avif);
+    margin-right: auto;
+    margin-left:auto;
+    padding: 20px;
+    max-width:550px;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(55, 23, 23);
+    border-color: rgb(0, 0, 0);
+    size-adjust: 6px;
+}
+
+h1, h2 {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.flavor {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;    
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.registration-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.registration-form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #218838;
+}
